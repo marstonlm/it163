@@ -1,7 +1,5 @@
-# it163 <br />
-:call_me_hand: Aloha <br />
-<br />
-:seedling: My favorite hobby is gardening, especially weeding <br />
-:pig_nose: One fur-baby of mine sound's like a pig. It's strange <br />
-:sunny: The hardest part of this quarter is that it's so nice outside <br />
-:computer: Looking forward to this quarter's project <br />
+# IT163 Web Auth 3 - Spring 2021
+Repo for Blake Agrade & Luann Webster (Group 4) Website
+
+[Google Docs Staging Document](https://docs.google.com/document/d/1vy_ob1rKQXYgrFOv_2h5TQ1WQDra-lZxdeT0J1lvGSc/edit?usp=sharing)
+ NEW EDIT
