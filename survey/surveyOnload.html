@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SURVEY TEST</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="css/survey.css">
+</head>
+
+<body onload="openForm()">
+    <h1>SURVEY</h1>
+    <h2>Welcome to Emerald City UHC</h2>
+
+
+
+    <div class="loginPopup">
+        <div class="formPopup" id="popupForm">
+            <!-- SURVEY QUESTIONS -->
+
+            <div id="surveyForm" class="formContainer">
+                <p>What is your name?</p>
+                <input id="inputName" type="text" name="name" placeholder="My Name">
+                <p>How old are you?</p>
+                <input id="inputAge" type="number">
+
+                <!-- ANIMAL w/ words
+                <div>
+                    <p>Pick an animal</p>
+                    <label><input id="inputAnimal" type="radio" name="choice" value="cat">Cat</label>
+
+                    <label><input id="inputAnimal" type="radio" name="choice" value="dog">Dog</label>
+
+                </div>
+            -->
+                <!-- Animal w/ pic -->
+
+                <div>
+                    <p>Pick an animal</p>
+                    <label><input id="inputAnimal" type="radio" name="choice" value="cat">Cat</label>
+
+                    <label><input id="inputAnimal" type="radio" name="choice" value="dog">Dog</label>
+
+                </div>
+
+
+
+                <button id="submitBtn" class="btn">Submit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </div>
+
+            <!-- END SURVEY QUESTIONS -->
+        </div>
+    </div>
+
+
+    <p><strong>My name is:</strong><span id="outputName"></span></p>
+
+    <p><strong>I'm years old</strong> <span id="outputAge"></span></p>
+
+    <p><strong>I choose</strong><span id="outputAnimal"></span></p>
+
+    <p>image of animal<img id="outputAnimalPic" src="images/both.jpeg" alt=""></p>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="js/surveyOnload.js"></script>
+
+</body>
+
+</html>

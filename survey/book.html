@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey TEST</title>
+    <link rel="stylesheet" href="css/book.css">
+</head>
+
+<body>
+
+
+    <h2>Popup Form</h2>
+    <p>Click on the "Open Form" button to open the popup form.</p>
+    <div id="welcomeButton" class="openBtn">
+      <button class="openButton" onclick="openForm()"><strong>Open Survey</strong></button>
+    </div>
+    <div class="loginPopup">
+        <div class="formPopup" id="popupForm">
+
+            <form id="survyForm" class="formContainer" target="_blank">
+                <h2>Welcom to Emerald City UHC</h2>
+                <p>We'd like to know more about you</p>
+
+
+                <label for="hikdername">
+                    <strong>What is your name?</strong>
+                </label>
+                <input type="text" id="formHikerName" name="hikername" required>
+          
+                <button type="submit" class="btn">Submmit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+
+        </div>
+    </div>
+<br>
+<div>
+    <h2>Welcome Hiker</h2>
+    <p>The name on the form is: <span id="welcomeName"></span></p>
+</div>
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/book.js"></script>
+    <script src="js/book_javascript.js"></script>
+
+</body>
+
+</html>

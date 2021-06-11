@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <h2>Popup Form</h2>
+    <p>Click on the "Open Form" button to open the popup form.</p>
+    <div class="openBtn">
+      <button class="openButton" onclick="openForm()"><strong>Open Form</strong></button>
+    </div>
+    <div class="loginPopup">
+        <div class="formPopup" id="popupForm">
+
+            <form class="formContainer" target="_blank">
+                <h2>Welcom to Emerald City UHC</h2>
+                <p>We'd like to know more about you</p>
+                <label for="hikdername">
+                    <strong>What is your name?</strong>
+                </label>
+                <input type="text" id="hikeername" name="hikername" required>
+          
+                <button type="submit" class="btn">Submmit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+
+        </div>
+    </div>
+<br>
+    <h2>Welcome Hiker</h2>
+ 
+    <!-- Optional JavaScript -->
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

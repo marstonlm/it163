@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SURVEY_FORM TEST</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="css/survey_form.css">
+</head>
+
+<body>
+    <h1>SURVEY_FORM</h1>
+    <h2>Welcome to Emerald City UHC</h2>
+
+
+
+    <div class="loginPopup">
+        <div class="formPopup" id="popupForm">
+            <!-- SURVEY QUESTIONS -->
+
+            <div id="surveyForm" class="formContainer">
+                <form action="survey_form.html">
+                    <fieldset>
+                        <p>What is your name?</p>
+                        <input id="inputName" type="text" name="name" placeholder="My Name">
+                        <p>How old are you?</p>
+                        <input id="inputAge" type="number">
+                    </fieldset>
+
+                    <fieldset>
+                        <p>Pick an animal</p>
+                        <label><input id="inputAnimal" type="radio" name="animal" value="cat">Cat</label>
+
+                        <label><input id="inputAnimal" type="radio" name="animal" value="dog">Dog</label>
+                    </fieldset>
+                    <!-- Animal w/ pics-->
+                    <!--
+                    <fieldset>
+                        <p>Pick an animal</p>
+                        <label><input id="inputAnimalPic" type="radio" name="animal" value="cat">Cat</label>
+
+                        <label><input id="inputAnimalPic" type="radio" name="animal" value="dog">Dog</label>
+
+                    </fieldset>
+-->
+
+
+                </form>
+            </div>
+
+            <hr>
+
+            <button id="submitBtn" class="btn">Submit</button>
+            <!-- <button type="submit" class="btn">Submmit</button> -->
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+            <!-- END SURVEY QUESTIONS -->
+        </div>
+    </div>
+
+    <div class="openBtn">
+        <button class="openButton" onclick="openForm()"><strong>Open Form</strong></button>
+    </div>
+
+    <p><strong>My name is:</strong><span id="outputName"></span></p>
+
+    <p><strong>I'm years old</strong> <span id="outputAge"></span></p>
+
+    <p><strong>I choose</strong><span id="outputAnimal"></span></p>
+
+    <p>image of animal<img id="outputAnimalPic" src="images/both.jpeg" alt=""></p>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="js/survey_form.js"></script>
+
+</body>
+
+</html>
