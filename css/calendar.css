@@ -4,9 +4,6 @@ div, ul, li{
 
 /* ----- CALENDAR ----- */
 .calendar{
-
-	/*padding: 10px;
-	margin:10;*/
 	background-color: #333333;
 }
 
@@ -27,24 +24,22 @@ div, ul, li{
 	width: 100%;
 }   
 
-table{
+table {
 	width: 100%;
-	/* padding: 10px; */
 	color: #9d9d9d;
 }
 
-th{
+th {
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 16px;
 	color: #5b5b5b;
 }
 
-td{
+td {
 	font-weight: normal;
 	font-size: 12px;
 	text-align: center;
 }
-
 
 td > span{
 	display: inline-block;
@@ -58,137 +53,52 @@ td > span:hover{
 	 font-weight: bold; 
 }
 	
-td > span.active{
+ td > span.active{
 	border: 1px solid #98cd60;
-	border-radius: 30px;
-}
-td > span:active{
-	border: 2px solid #98cd60;
-	border-radius: 30px;
+	border-radius: 30px!important;
 }
 
-/* ----- AGENDA ----- */
-	
-.description{ 
-	margin-top: 10px;
-	margin-left: 10px;
-	color: #fd9a4a;
-	font-size: 14px;
-    overflow: visible;
-}
-
-.description	.description-content{
-	margin-top: 5px;
-}
-
-.description	.description-content p {
-	font-size: 12px;
-	margin: 0;
-	color: #c5c5c5;
-}
-			
-.description	.description-content	ul.contact-list{
-	margin: 0;
-	margin-top: 10px;
-	padding: 0;
-}
-.description	.description-content	ul.contact-list	li.contact{
-	overflow: hidden;
+.last {
 	display: block;
+	padding-bottom: 20px;
+}
+
+
+.hike-card-title {
+	color: #1f83bd;
+}
+
+.btn-register {
+	min-width: 200px;
+}
+
+.event-card {
+	border-left: none;
+	border-right: none;
+}
+
+div.event-date {
 	float: left;
-	margin: 0; padding: 0;
-	border: 2px solid fadeout(#98cd60, 75%);
-	border-radius: 60px;
-	width: 56px; height: 56px;
-	text-decoration: none;
-	text-align: center;
-	margin-right: 10px;
-	transition: all 0.2s;
-}
-.description	.description-content	ul.contact-list	li.contact	img{
-	width: 60px; height: 60px;
-}
-					
-.description	.description-content	ul.contact-list	li.contact:hover{
-	border: 2px solid #98cd60;          
-}
-					
-.description	.description-content	ul.contact-list	li.contact.add-contact{
-	color: #98cd60;
-	font-size: 20px;
-	line-height: 60px;
 }
 
-.description	.description-content	ul.contact-list	li.contact.add-contact a{
-	color: inherit;
-	text-decoration: none;
-}
-						
-.description .description-content	ul.contact-list	li.contact .add-contact a:hover{
-	background-color: fadeout(#98cd60, 75%);
-}
-
-.hike-contact {
-	list-style: none;
-	margin: 0;
-    padding-left: 25px;
-	overflow: hidden;
-}
-
-.hike-contact > li {
-    float: left;
-	margin: 5px;
-	padding: 5px;
-    text-align: left;
-}
-
-.schedule-item{
-	display: block;
-	margin-bottom: 50px;
-	padding: 0;
-	clear: both;
-	min-height: 100px;
-  	overflow: visible;
-}
-	
-.schedule-item:last-child{
-	margin-bottom: 10px;
-    min-height: 30px;
-}
-	
-.time{
-	display: block;
+div.event-time {
 	float: left;
-	color: #cccccc;
-	text-align: center;
-	padding-bottom: 10px;
-	line-height: 25px;
-}	
+	margin-left: 100px;
+}
 
-.time	span{
-	font-size: 24px;
-	height: 20px;
-	margin: auto;
-	display: block;
+div.event-name {
+	float: right;
 }
 
 
-/* ----- Events Pg ----- */
-.container {
-	padding: 0px;
-	margin: 0px;
+@media only screen and (max-width:1112px) {
+	div.event-date, div.event-time, div.event-name {
+		float: none;
+		width: 100%;
+		align-content: center;
+	}
+
+	div.event-time {
+		margin: 0;
+	}
 }
-
-
-
-
-/* ----- card-deck ----- */
-.card-deck {
-	margin-left: 0;
-}
-
-.row {
-	margin-right: 0px;
-	margin-left: 0px;
-}
-

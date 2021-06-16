@@ -2,8 +2,10 @@
 
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="8ITOve7oNkpGDE83TFWvaHKObxSajQEiABcAbCXGmGw" />
 
   <!-- Bootstrap Layout CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -11,17 +13,19 @@
 
   <!-- Main CSS -->
   <link rel="stylesheet" href="css/normalmode.css" id="theme">
-  <!-- REMOVED script src="https://kit.fontawesome.com/902b4b52d9.js" crossorigin="anonymous" -->
+  <script src="https://kit.fontawesome.com/902b4b52d9.js" crossorigin="anonymous"></script>
   <!-- Added -->
   <link rel="stylesheet" href="css/calendar.css">
+  <link rel="stylesheet" href="css/survey.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://use.typekit.net/omb7zgd.css">
 
   <title>Emerald City UHC</title>
+  <meta name="description" content="Emerald City UHC:Urban Hiking Club in Seattle Washington.">
 </head>
 
-<body>
+<body onload="preventOnload()">
   <header>
     <img src="images/headerimg.png" class="header-img">
     <h1>Emerald City UHC</h1>
@@ -57,6 +61,7 @@
             </div>
           </li>
           <button onclick="toggleTheme()" id='theme'>Change Theme</button>
+          
       </div>
       </ul>
       </div>

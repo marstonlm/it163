@@ -10,25 +10,30 @@
           Seattle WA, 98101
           <br>USA</p>
           <a href="tel:+12061231234">206.123.1234</a>
+          <br>
+          <a href="mailto:test@example.com?subject=Message From EC UHC&body=Hi," target="_blank" " class="btn btn-success middle">Contact Us</a>
         </address>
       </div>
-      <div class="col-md-6 mt-4 text-left">
-        <h2 class="footer-heading justify-content-center">Subscribe</h2>
-        <form class="subscribe-form">
-          <div class=" d-flex" data-children-count="1">
-            <label for="subscribeNewsletterEmail">Subscribe to Our Newsletter</label>
-            <input type="email" class="form-control" id="subscribeNewsletterEmail" placeholder="Enter email">
-            
-            <button type="submit" class="btn btn-success middle">Subscribe</button>
-            </div>
-        </form>
+      <div class="col-md-6 mt-4 text-left ">
+                    <h2 class="footer-heading justify-content-center ">Subscribe</h2>
+                    <p class="text-center ">Subscribe to Our Newsletter</p>
+                    <form class="subscribe-form ">
+                        <div class=" d-flex " data-children-count="1 ">
+
+                            <label for="subscribeNewsletterEmail ">
+                                </label>
+                            <input type="email " class="form-control " id="subscribeNewsletterEmail " placeholder="Enter email ">
+
+                            <button type="submit " class="btn btn-success middle ">Subscribe</button>
+                        </div>
+                    </form>
         <div>
           <h2 class="footer-heading text-left">Follow Us</h2>
           <ul id="footer-media" class="p-0 text-center">
-            <li><i class="fab fa-twitter-square size-media" style="color:#1da1f2;"></i></li>
-            <li><i class="fab fa-instagram-square size-media" style="color:#F56040;"></i></li>
-            <li><i class="fab fa-facebook-square size-media" style="color:#4267b2;"></i></li>
-            <li><i class="fab fa-meetup size-media" style="color:#e0393e;"></i></li>
+            <li><a href="http://linkedin.com" target="_blank"><i class="fab fa-twitter-square size-media" style="color:#1da1f2;"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square size-media" style="color:#F56040;"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square size-media" style="color:#4267b2;"></i></a></li>
+            <li><a href="https://www.meetup.com" target="_blank"><i class="fab fa-meetup size-media" style="color:#e0393e;"></i></a></li>
           </ul>
         </div>
       </div>
@@ -49,7 +54,7 @@
     </div>
     <div id="timer">
     Your session has lasted: <span id="minutes"></span> minutes <span id="seconds"></span> seconds
-  </div>
+    </div>
   </div>
 </footer>
 <!-- END FOOTER -->
@@ -57,8 +62,9 @@
 
 
 <!-- Optional JavaScript -->
-<script src="js/alljavascript.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/alljavascript.js"></script>
+
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
